@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+    margin-left: 8em;
+}
+
+.container__titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza);
+    padding-left: 0.5em;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__opcoes {
+    display: flex;
+    margin-right: 40em;
+}
+
+.menu__opcoes__itens {
+    margin-top: 1.5em;
+}
+
+.menu__opcoes__link {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza-claro);
+    text-decoration: none;
+    margin: 1em;
+}
+
+.menu__opcoes__login {
+    display: flex;
+    margin-right: 10em;
+}
+
+.menu__opcoes__cadastrar {
+    background: var(--vermelho);
+    color: var(--branco);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0.5em;
+}

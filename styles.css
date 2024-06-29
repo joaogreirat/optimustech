@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/metrics.css);
+@import url(styles/jobs.css);
+@import url(styles/depositions.css);
+@import url(styles/footer.css);
+
+:root {
+    --cinza: #3A404E;
+    --cinza-claro: #667085;
+    --vermelho: #8E2424;
+    --branco: #FFFFFF;
+    --azul: #101828;
+    --vermelho-fundo: #8E24240D;
+    --cinza-borda: #EAECF0;
+    --cinza-fundo: #F9FAFB;
+    --vermelho-transparente: #c3191909;
+    --cinza-copyright: #98A2B3;
+    --fonte-principal: "Inter";
+    
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+}
+
